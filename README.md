@@ -3,7 +3,7 @@
 A QR code generator using React
 
 ## Author
-[Md.Ali Reza](https://github.com/rahmanreza646)
+[Md. Ali Reza](https://github.com/rahmanreza646)
 
 ## Demo
 
