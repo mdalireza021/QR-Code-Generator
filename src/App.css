@@ -1,74 +1,64 @@
-.app
-{
-    height: 650px;
-    max-width: 610px;
-    background:#fff;
-    border-radius: 8px;
-    padding: 16px 25px 0;
-    transition: height 0.2s ease;
-}
-h1
-{
-    font-size: 30px;
-    font-style: bold;
-    text-align: center;
-    
-}
-p
-{
-    margin-top: 5px;
-    color: #474747;
-    font-size: 18px;
-    text-align: center;
-
+.card-container {
+  max-width: 610px;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  text-align: center;
 }
 
-.app .form
-
-{
-    margin: 20px 0 25px;
+.card-container h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.form input,button
-{
-    width: 100%;
-    height: 55px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+.card-container p {
+  font-size: 1.125rem;
+  color: #474747;
+  margin-bottom: 20px;
 }
 
-.form input
-{
-    font-size: 18px;
-    padding: 0 17px;
-    border:  1px solid rgba(153, 153, 153, 0.534);
+.card-container input,
+.card-container button {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.form button
-{
-    color: #fff;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 17px;
-    background-color: #0b8bda;
+.card-container input {
+  font-size: 1rem;
+  padding: 0 15px;
+  border: 1px solid rgba(153, 153, 153, 0.534);
 }
 
-.form button:hover
-{
-    background-color: #0469a8;
-    
+.card-container button {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0b8bda;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
-.qr-code
-{
-    display: flex;
-    pointer-events: none;
-    padding: 33px 0;
-    border-radius: 5px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #999;
+.card-container button:hover {
+  background-color: #0469a8;
+}
+
+.card-container button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.qr-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #999;
 }

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5", // Set the target JavaScript version (optional)
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true, // Specify standard libraries to include
+    "allowJs": true, // Allow JavaScript files to be included
+    "skipLibCheck": true, // Skip type checking of library files (optional)
+    "esModuleInterop": true, // Enable ES module interop
+    "allowSyntheticDefaultImports": true, // Allow synthetic default imports
+    "strict": true, // Enable strict mode type checking
+    "forceConsistentCasingInFileNames": true // Enforce consistent file name casing
+  },
+  "include": ["src"] // Specify the directory to include for type checking
+}
